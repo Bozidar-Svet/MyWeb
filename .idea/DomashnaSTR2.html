@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="DomashnaSTR2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="DomashnaDetali.js"></script>
+    <script src="NotUnlocked.js"></script>
+    <script src="TryAgainLater.js"></script>
+</head>
+<body>
+
+<div class="row"></div>
+
+    <div id="Back">
+        <a href="DomashnaRabota.html"> << Back </a>
+    </div>
+    <div id="Select">
+        <p>Select a character:</p>
+    </div>
+<div class = "Likoj">
+    <button class="card2" id="card2" onclick="showLockedPopup()">
+        <img src="https://lh3.googleusercontent.com/a/ACg8ocKdOVBs9EIvtNNFToZNUkkhNKS_SmTqzWcZXTLVMe8chy5ZtDUTMDn1VCJ8JOalD-3b3eRM10uOqiNLqjYSL-DZNy8FYLY=s396-c-no">
+        Name:
+        <h4>???</h4>
+        Roll:
+        <p><b>???</b></p>
+    </button>
+    <button class="card" onclick="showPopup()">
+        <img src="https://s3.amazonaws.com/files.d20.io/images/440816075/0_qLhtyPMzbq_CxVY1Lm2g/original.jpg?1747152321652">
+        Name:
+        <h4>Bozidar Svetozarevic</h4>
+        Roll:
+        <p><b>Student</b></p>
+    </button>
+    <div class="popup" id="myPopup">
+        <img src="https://storage.googleapis.com/stpp/aLdfg8ciSq2IxXg9CkU06g.jpg">
+        <div class="popup-content">
+            <p>Skill's:</p>
+            <table>
+                <tr>
+                    <th>Tehnicki Veshtini:</th>
+                    <th>Obrazovanie:</th>
+                    <th>Hobi:</th>
+                </tr>
+                <tr>
+                    <td>C++</td>
+                    <td>Gimnazija "Kiril Pejcinovic"</td>
+                    <td>Muzika</td>
+                </tr>
+                <tr>
+                    <td>HTML/CSS/JS</td>
+                    <td>Student</td>
+                    <td>Video Games</td>
+                </tr>
+                <tr>
+                    <td>Digitalna Music</td>
+                    <td></td>
+                    <td>Pokemon Karte</td>
+                </tr>
+            </table>
+            <h3>Biografija</h3>
+            <p>Student na FINKI – nasoka Softversko inženerstvo, so interes vo razvoj na veb aplikacii i novi tehnologii.
+                Strasta za programiranje ja razviva ušte do sredno učilište, kade što učestvuvashe vo nekoliko natprevari i projekti.
+                Saka da uči novi raboti, da sorabotuva so drugi luѓe i da rešava realni problemi preku kodiranje.
+            </p>
+            <button onclick="hidePopup()">Close</button>
+        </div>
+    </div>
+    <button class="card2" id="card3" onclick="showLockedPopup()">
+        <img src="https://lh3.googleusercontent.com/a/ACg8ocKdOVBs9EIvtNNFToZNUkkhNKS_SmTqzWcZXTLVMe8chy5ZtDUTMDn1VCJ8JOalD-3b3eRM10uOqiNLqjYSL-DZNy8FYLY=s396-c-no">
+        Name:
+        <h4>???</h4>
+        Roll:
+        <p><b>???</b></p>
+        </button>
+
+    <div class="popup" id="lockedPopup" style="display: none;">
+        <div class="popup-content2">
+            <p>This character isn't unlocked yet!</p>
+            <button onclick="hideLockedPopup()">Close</button>
+        </div>
+    </div>
+</div>
+<div class="PressStart">
+    <a href="#" class="play" onclick="showErrorPopup();">Play!</a>
+</div>
+<div class="TryAgainLater" id="TryAgainLater">
+    <div class="popup-content3">
+        <p>ERROR<br>PLZ TRY AGAIN LATER!</p>
+        <button onclick="hideTryAgainLater()">Close</button>
+    </div>
+</div>
+
+
+    <div class="row2"></div>
+</body>
+</html>

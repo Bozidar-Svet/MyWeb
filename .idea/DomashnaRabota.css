@@ -1,0 +1,58 @@
+body {
+    font-family: "Press Start 2P", cursive;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://www.shutterstock.com/shutterstock/videos/1111484669/thumb/1.jpg?ip=x480");
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-position: 0 0;
+    animation: scroll-bg 25s linear infinite;
+}
+
+@keyframes scroll-bg {
+    from {
+        background-position-x: 1000px;
+    }
+    to {
+        background-position-x: 0;
+    }
+}
+#Start{
+    margin-top:250px;
+    text-align: center;
+}
+#continue{
+    margin-top:20px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    border-bottom: white 5px solid;
+    text-shadow:5px 1px lightseagreen;
+}
+a:hover{
+    color:lightseagreen;
+    border-bottom: lightseagreen 5px solid;
+    text-shadow:5px 1px white;
+    box-shadow: 0 2px 5px white;
+}
+.row{
+    display: flex;
+    border:2px solid white;
+    background-color: lightseagreen;
+    padding: 20px;
+    border-radius: 5px;
+}
+.row2{
+    display: flex;
+    border:2px solid white;
+    background-color: lightseagreen;
+    padding: 20px;
+    margin-top: 285px;
+    border-radius: 5px;
+}
+
+

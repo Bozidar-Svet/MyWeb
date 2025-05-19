@@ -1,0 +1,237 @@
+body {
+    font-family: "Press Start 2P", cursive;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://www.shutterstock.com/shutterstock/videos/1111484669/thumb/1.jpg?ip=x480");
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-position: 0 0;
+    animation: scroll-bg 25s linear infinite;
+}
+
+@keyframes scroll-bg {
+    from {
+        background-position-x: 1000px;
+    }
+    to {
+        background-position-x: 0;
+    }
+}
+
+#Back a{
+    text-decoration: none;
+    color: white;
+    text-shadow:5px 1px lightseagreen;
+    font-size: 20px;
+}
+#Back a:hover{
+    color:lightseagreen;
+    text-shadow:5px 1px white;
+}
+#Select{
+    color: white;
+    text-shadow:5px 1px 5px lightseagreen;
+    text-align: center;
+}
+.card{
+    width: 200px;
+    height: 330px;
+    border: 5px solid white;
+    border-radius: 5px;
+    background-color: white;
+
+}
+.card:hover{
+    box-shadow: 3px 3px 5px black;
+}
+.card img{
+    width: 180px;
+    height: 200px;
+    border-radius: 15px;
+}
+.popup {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    border-color: darkslategray;
+}
+
+.popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    min-width: 300px;
+    width: 650px;
+    height: 550px;
+    border-color: darkslategray;
+}
+.popup img{
+    width: 400px;
+    height: 590px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+table{
+    border: darkslategray 5px solid;
+    box-shadow: 5px 5px 5px black;
+    background-color: black;
+}
+th{
+    color: white;
+    border-bottom: white 5px solid;
+    border-right:white 5px solid;
+    border-left:white 2px solid;
+    border-top:white 1px solid;
+    border-radius: 10px;
+
+
+}
+td{
+    color: white;
+    border-bottom: white 5px solid;
+    border-right: white 5px solid;
+    padding: 10px;
+    border-left:white 2px solid;
+    border-top:white 1px solid;
+}
+.popup-content p{
+    color: black;
+}
+.card2{
+    width: 200px;
+    height: 330px;
+    border: 5px solid white;
+    border-radius: 5px;
+    background-color: white;
+}
+.card2 img{
+    width: 180px;
+    height: 200px;
+    border-radius: 15px;
+}
+.card2:hover{
+    box-shadow: 3px 3px 5px black;
+}
+.card3{
+    width: 200px;
+    height: 330px;
+    border: 5px solid white;
+    border-radius: 5px;
+    background-color: white;
+
+}
+.card3 img{
+    width: 180px;
+    height: 200px;
+    border-radius: 15px;
+}
+.card3:hover{
+    box-shadow: 3px 3px 5px black;
+}
+.card4{
+    width: 200px;
+    height: 330px;
+    border: 5px solid white;
+    border-radius: 0;
+    background-color: white;
+
+}
+.card4 img{
+    width: 180px;
+    height: 200px;
+    border-radius: 15px;
+}
+.card4:hover{
+    box-shadow: 3px 3px 5px black;
+}
+
+.border{
+    border: darkslategray 5px solid;
+    box-shadow: 5px 5px 5px black;
+    background-color: gray;
+    margin:20px;
+    display: flex;
+}
+.border h3{
+    margin-left:290px;
+}
+.row{
+    display: flex;
+    border:2px solid white;
+    background-color: lightseagreen;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.row2{
+    display: flex;
+    border:2px solid white;
+    background-color: lightseagreen;
+    padding: 20px;
+    margin-top: 85px;
+    border-radius: 5px;
+}
+.Likoj {
+    display:flex;
+    justify-content: space-evenly;
+}
+.popup-content2 {
+    background: lightseagreen;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px black;
+    position: relative;
+    min-width: 300px;
+    border: 3px solid white;
+    color:white;
+    text-shadow:5px 1px darkslategray;
+}
+.play {
+    display: flex;
+    border: 2px solid white;
+    background-color: lightseagreen;
+    padding: 20px;
+    margin-top: 100px;
+    border-radius: 5px;
+    text-align: center;
+    width: 100px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 5px 1px darkslategray;
+    font-weight: bold;
+    font-size: 20px;
+}
+.play:hover {
+    box-shadow: 3px 3px 5px black;
+    text-shadow:5px 1px black;
+}
+.PressStart{
+    display: flex;
+    justify-content: center;
+}
+#TryAgainLater {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw; height: 100vh;
+    background: rgba(0,0,0,0.6);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+.popup-content3 {
+    background: lightseagreen;
+    padding: 20px;
+    color: white;
+    border-radius: 8px;
+    text-shadow: 2px 1px darkslategray;
+    box-shadow: 0 0 10px black;
+    min-width: 300px;
+    text-align: center;
+}

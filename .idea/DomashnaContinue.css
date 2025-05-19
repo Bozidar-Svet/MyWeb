@@ -1,0 +1,170 @@
+body {
+    font-family: "Press Start 2P", cursive;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://www.shutterstock.com/shutterstock/videos/1111484669/thumb/1.jpg?ip=x480");
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-position: 0 0;
+    animation: scroll-bg 25s linear infinite;
+}
+
+@keyframes scroll-bg {
+    from {
+        background-position-x: 1000px;
+    }
+    to {
+        background-position-x: 0;
+    }
+}
+#Back a{
+    text-decoration: none;
+    color: white;
+    text-shadow:5px 1px lightseagreen;
+    font-size: 20px;
+    border:none;
+}
+#Back a:hover{
+    color:lightseagreen;
+    text-shadow:5px 1px white;
+}
+#Save1 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    border:white 5px solid;
+    border-radius: 10px;
+    text-shadow:5px 1px darkslategray;
+    padding: 10px;
+    background-color: lightseagreen;
+}
+#Save1 a:hover{
+    text-shadow:5px 1px black;
+    box-shadow:5px 1px black;
+}
+#Save2 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    border:white 5px solid;
+    border-radius: 10px;
+    text-shadow:5px 1px darkslategray;
+    padding: 10px;
+    background-color: lightseagreen;
+
+}
+#Save2 a:hover{
+    text-shadow:5px 1px black;
+    box-shadow:5px 1px black;
+}
+#Save3 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    border:white 5px solid;
+    border-radius: 10px;
+    text-shadow:5px 1px darkslategray;
+    padding: 10px;
+    background-color: lightseagreen;
+
+}
+#Save3 a:hover{
+    text-shadow:5px 1px black;
+    box-shadow:5px 1px black;
+}
+#Save4 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    border:white 5px solid;
+    border-radius: 10px;
+    text-shadow:5px 1px darkslategray;
+    padding: 10px;
+    background-color: lightseagreen;
+
+}
+#Save4 a:hover{
+    text-shadow:5px 1px black;
+    box-shadow:5px 1px black;
+}
+a:hover{
+    color:lightseagreen;
+    border:lightseagreen 5px solid;
+    text-shadow:5px 1px white;
+    box-shadow: 0 2px 5px white;
+}
+.row{
+    display: flex;
+    border:2px solid white;
+    background-color: lightseagreen;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.row2{
+    display: flex;
+    border:2px solid white;
+    background-color: lightseagreen;
+    padding: 20px;
+    margin-top: 223px;
+    border-radius: 5px;
+}
+#Save1{
+    margin-top:80px;
+    text-align: center;
+}
+#Save2{
+    margin-top:40px;
+    text-align: center;
+}
+#Save3{
+    margin-top:40px;
+    text-align: center;
+}
+#Save4{
+    margin-top:40px;
+    text-align: center;
+}
+.NoSvae{
+    border:2px solid white;
+    background-color: lightseagreen;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+.popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw; height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.popup-box {
+    background: lightseagreen;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px black;
+    position: relative;
+    min-width: 300px;
+    border: 3px solid white;
+    color:white;
+    text-shadow:5px 1px darkslategray;
+}
+
+.close-btn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
