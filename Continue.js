@@ -3,7 +3,7 @@
 function showPopup() {
     const popup = document.getElementById('popup');
     const message = document.getElementById('popupMessage');
-    message.textContent = "There is no saved game here.";
+
     popup.style.display = 'flex';
 }
 

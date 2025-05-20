@@ -97,22 +97,6 @@ a:hover{
     text-shadow:5px 1px white;
     box-shadow: 0 2px 5px white;
 }
-.row{
-    display: flex;
-    border:2px solid white;
-    background-color: lightseagreen;
-    padding: 20px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-}
-.row2{
-    display: flex;
-    border:2px solid white;
-    background-color: lightseagreen;
-    padding: 20px;
-    margin-top: 223px;
-    border-radius: 5px;
-}
 #Save1{
     margin-top:80px;
     text-align: center;
@@ -148,7 +132,6 @@ a:hover{
     align-items: center;
     z-index: 999;
 }
-
 .popup-box {
     background: lightseagreen;
     padding: 20px;
@@ -160,7 +143,14 @@ a:hover{
     color:white;
     text-shadow:5px 1px darkslategray;
 }
-
+.popup-box a{
+    color: white;
+    text-shadow:5px 1px darkslategray;
+}
+.popup-box a:hover{
+    text-shadow:;
+    color: white;
+}
 .close-btn {
     position: absolute;
     top: 5px;

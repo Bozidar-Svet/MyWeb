@@ -17,7 +17,9 @@ body {
         background-position-x: 0;
     }
 }
-
+#Back{
+    margin-top:20px;
+}
 #Back a{
     text-decoration: none;
     color: white;
@@ -32,6 +34,7 @@ body {
     color: white;
     text-shadow:5px 1px 5px lightseagreen;
     text-align: center;
+    margin-top: 30px;
 }
 .card{
     width: 200px;
@@ -160,22 +163,6 @@ td{
 }
 .border h3{
     margin-left:290px;
-}
-.row{
-    display: flex;
-    border:2px solid white;
-    background-color: lightseagreen;
-    padding: 20px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-}
-.row2{
-    display: flex;
-    border:2px solid white;
-    background-color: lightseagreen;
-    padding: 20px;
-    margin-top: 85px;
-    border-radius: 5px;
 }
 .Likoj {
     display:flex;
