@@ -3,7 +3,6 @@
 function showPopup() {
     const popup = document.getElementById('popup');
     const message = document.getElementById('popupMessage');
-
     popup.style.display = 'flex';
 }
 

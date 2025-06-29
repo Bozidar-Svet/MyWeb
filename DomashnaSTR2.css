@@ -8,7 +8,6 @@ body {
     background-position: 0 0;
     animation: scroll-bg 25s linear infinite;
 }
-
 @keyframes scroll-bg {
     from {
         background-position-x: 1000px;

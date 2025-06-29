@@ -113,7 +113,7 @@ a:hover{
     margin-top:40px;
     text-align: center;
 }
-.NoSvae{
+.NoSave{
     border:2px solid white;
     background-color: lightseagreen;
     padding: 20px;
@@ -146,10 +146,6 @@ a:hover{
 .popup-box a{
     color: white;
     text-shadow:5px 1px darkslategray;
-}
-.popup-box a:hover{
-    text-shadow:;
-    color: white;
 }
 .close-btn {
     position: absolute;
